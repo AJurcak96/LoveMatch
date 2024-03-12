@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <!-- Fonts from Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Bootstrap style link -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- link for CSS -->
+    <link rel="stylesheet" href="index.css">
+    <!-- link for JavaScript -->
+    <script src="index.js"></script>
+</head>
+<body>
+    
+    <!-- Container -->
+    <div class="container">
+        <div class="title">
+            <!-- Title -->
+            <h1>Love Calcucaltor</h1>      
+        </div>
+        <div class="inputBoxes">
+            <!-- Input for the first name -->
+            <label class="text" for="firstName">First:</label>
+            <input id="firstName" placeholder=" name">
+            <br>
+            <!-- Input for the second name -->
+            <label class="text" for="secondName">Second: </label>
+            <input id="secondName" placeholder=" name">
+        </div>
+        <br>
+        <!-- Button for that starts the calculation -->
+        <button class=btn onclick="generateRandomNumber()">Calculate</button>
+        <!-- Result of the calculation -->
+        <div class="result" id="result"></div>
+        <!-- Message that pops -->
+        <div class="message" id="message"></div>
+        <div>
+            <!-- Image on the bottom of the page -->
+            <img class="image" src="./heart.jpg">
+        </div>
+    </div>
+    
+</body>
+</html>
