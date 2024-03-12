@@ -1,4 +1,3 @@
-#LoveMatch
 Old School Love-Match Calculator
 
 #How to Use
